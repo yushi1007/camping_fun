@@ -10,7 +10,7 @@ The data to be saved to the database can be found in the `seeds.rb`. Use the inf
 
 ## The Deliverables
 
-1. To log a camper with an activity, we need to store some additional information in our database. Make the necessary updates to our database, so that **a `camper` can have many `activities`** and **an `activity` can have many campers**. The `signup` should also include a time (as an integer) that is between 0 and 23, referring to the hour of the activity.
+1. To log a camper with an activity, we need to store some additional information in our database. Make the necessary updates to our database, so that **a `camper` can have many `activities`** and **an `activity` can have many `campers`**. The `signup` should also include a time (as an integer) that is between 0 and 23, referring to the hour of the activity.
 
 2. As a user, I should be able to go to the index page of the `campers` and see the list of all the campers in my database. When I click a name, I should go to the show page for that `camper`. The show page should show the `camper's` name, their age and the list of activities that they have signed up for.
 
